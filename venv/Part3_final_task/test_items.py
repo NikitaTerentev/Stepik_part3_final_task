@@ -9,4 +9,3 @@ def test_add_to_basket_button(browser):
     browser.get(link)
     browser.maximize_window()
     assert browser.find_elements(By.CLASS_NAME, "btn-add-to-basket")
-    time.sleep(3)
